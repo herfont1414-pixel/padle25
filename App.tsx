@@ -1,11 +1,11 @@
 
 import React, { useState } from 'react';
-import Header from './components/Header';
-import MatchCard from './components/MatchCard';
-import CreateMatchForm from './components/CreateMatchForm';
-import useMatches from './hooks/useMatches';
-import { Match, Player } from './types';
-import Footer from './components/Footer';
+import Header from './components/Header.tsx';
+import MatchCard from './components/MatchCard.tsx';
+import CreateMatchForm from './components/CreateMatchForm.tsx';
+import useMatches from './hooks/useMatches.ts';
+import { Match, Player } from './types.ts';
+import Footer from './components/Footer.tsx';
 
 function App() {
     const { matches, addMatch, joinMatch } = useMatches();
