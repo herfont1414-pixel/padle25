@@ -1,0 +1,5 @@
+{
+  "name": "Copy of Padel Connect",
+  "description": "An application for organizing Padel matches. Organizers can post games that need players, and interested players can join online or by contacting the organizer via WhatsApp.",
+  "requestFramePermissions": []
+}
